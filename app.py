@@ -40,9 +40,9 @@ def handle_message(event):
     msg = event.message.text
     r = '我看不懂你在說甚麼'
     if msg == "你吃飯了嗎?":
-        r == "還沒"
+        r = "還沒"
     elif '如何' in msg:
-        r == '還不錯'
+        r = '還不錯'
 
 
 
