@@ -41,7 +41,7 @@ def handle_message(event):
     r = '我看不懂你在說甚麼'
     if msg == "你吃飯了嗎?":
         r == "還沒"
-    if '如何' in msg:
+    elif '如何' in msg:
         r == '還不錯'
 
 
